@@ -1,0 +1,58 @@
+body {
+    background-color: #f3f0f6; /* Cor de fundo suave em tons de lilás claro */
+    color: #4a2c77; /* Texto em um roxo suave */
+    font-family: "Poppins", sans-serif; /* Atualiza a fonte para Poppins */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button {
+    background-color: #d4a5f0; /* Botão em lilás claro */
+    color: #4a2c77; /* Texto do botão em roxo suave */
+    font-family: "Poppins", sans-serif; /* Atualiza a fonte para Poppins */
+    font-weight: bold;
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b97cdd; /* Tom mais escuro de lilás ao passar o mouse */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    width: 300px; /* Define uma largura fixa para as imagens */
+    height: 200px; /* Define uma altura fixa para as imagens */
+    object-fit: cover; /* Garante que a imagem cubra a área definida sem distorção */
+    border: thin solid #d4a5f0; /* Borda lilás clara */
+    padding-top: 30px; 
+}
+
+header {
+    font-size: 32px;
+    color: #4a2c77; /* Cor do texto do cabeçalho em roxo suave */
+    padding-top: 50px;
+    margin: 0;
+}
